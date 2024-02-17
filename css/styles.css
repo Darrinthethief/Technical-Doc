@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Poppins, Arial, sans-serif;
+  }
+  
+  /* Navigation */
+  
+  h1 {
+    text-shadow: 10px 10px 10px #599;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding-top: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #599;
+    text-shadow: 10px 10px 10px;
+  }
+  
+  nav ul li {
+    padding-top: 25px;
+  }
+  
+  .navbar {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    padding-left: 25px;
+    background-color: #000;
+    color: #fff
+  }
+  
+  .navbar a:hover {
+    color: red;
+  }
+  
+  /* Main Section */
+  
+  .main {
+    padding-left: 250px;
+    background-color: #599;
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+  
+  .title {
+    font-weight: 900;
+    padding-bottom: 35px;
+    letter-spacing: 5px;
+    text-shadow: 14px 14px 14px #000;
+    font-size: 30px;
+  }
+  
+  #HTML, #Visual_Studio_Code, #CSS, #JavaScript, #Prompt_Engineering, #Version_Control_Git_and_Github, #Package_Managers, Bootstrap_5_and_SASS {
+    padding-top: 50px;
+  }
+  
+  p {
+    padding-bottom: 30px;
+    line-height: 2rem;
+    font-weight: 600;
+    padding-top: 30px;
+    font-size: 22px;
+    text-shadow: 15px 15px 15px #fff;
+  }
+  
+  .main ul li {
+    list-style-type: none;
+  }
+  
+  .main h3 {
+    padding-bottom: 50px;
+    font-size: 24px;
+    padding-top: 25px;
+    letter-spacing: 5px;
+    text-shadow: 15px 15px 15px #fff;
+  }
+  
+  .section-list li {
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    text-shadow: 15px 15px 15px #777;
+    font-size: 20px;
+    font-stretch: extra-expanded;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  
+    .main ul li {
+      list-style-type: none;
+      text-align: center;
+    }
+  
+    .main h3 {
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+  }
+  
